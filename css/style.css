@@ -1,0 +1,283 @@
+body{
+	font-family:'Helvetica Neue',sans-serif;
+	
+}
+
+
+/*-----header start-----*/
+
+.header{
+	background: url(../images/header.jpg) no-repeat center center; 
+	/*-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;*/
+	background-size: cover;
+	width:100%;
+	height:700px;
+	overflow:hidden;
+}
+.navbar-header{
+	padding-left:10px;
+}
+.navbar-default .navbar-header a{
+	color:#ccc;
+	font-weight:700;
+	
+}
+.navbar-default .navbar-header a:hover{
+	color:#fff;
+}
+.navbar-default .mainmenu li a{
+	color:#ccc;
+	font-weight:700;
+}
+.navbar-default .mainmenu li a:hover{
+	color:#fff;
+}
+.navbar{
+	
+	background:none;
+	border:none;
+	padding-left:0;
+	
+}
+.navbar-right{
+	padding-right:10px;
+}
+
+.header-top hr{
+	margin-top:-20px;
+	border-color:#ddd;
+	width:100%;
+}
+.header-bottom{
+	text-align:center;
+	margin-top:100px;
+}
+.header-bottom h1{
+	color:#f5f5f5;
+	text-transform:uppercase;
+	font-weight:700;
+	padding-bottom:35px;
+	
+	
+	
+}
+.header-bottom hr{
+	border-color: #F05F40;
+    border-width: 3px;
+    max-width: 50px;
+}
+.header-bottom p{
+	font-size:18px;
+	color:#C9C7C0;
+	text-align:center;
+	padding-top:35px;
+	font-weight:300;
+}
+.header-bottom button{
+	background-color:#F05F40;
+	border-radius:50px;
+	border-color:#f05f40;
+	padding:15px 30px;
+	font-weight:600;
+	text-transform:uppercase;
+	margin-top:35px;
+}
+/*-----header end-----*/
+
+
+/*=====start of get started area=====*/
+
+.get_started{
+	text-align:center;
+	padding:80px 0;
+	background:#F05F40;
+	/*overflow:hidden;*/
+}
+.get_started h3{
+	color:#f5f5f5;
+	text-transform:capitalize;
+	font-size:30px;
+	padding-bottom:30px;
+	
+	
+}
+.get_started hr{
+	border-color: #fff;
+    border-width: 3px;
+    max-width: 50px;
+}
+.get_started p{
+	font-size:18px;
+	color:#f5f5f5;
+	text-align:center;
+	padding-top:30px;
+	font-weight:300;
+}
+.get_started button{
+	background-color:#fff;
+	border-radius:50px;
+	border-color:#f05f40;
+	padding:15px 30px;
+	font-weight:600;
+	text-transform:uppercase;
+	margin-top:35px;
+}
+
+/*===========end of get_started area==========*/
+ 
+/*===========start of service area==========*/ 
+
+.service_area{
+	padding:80px 0;
+}
+.service_heading{
+	
+}
+.service_heading h3{
+	text-align:center;
+	text-transform:capitalize;
+}
+.service_heading hr{
+	border-color: #F05F40;
+    border-width: 3px;
+    max-width: 50px;
+}
+.service_content{}
+.single_service{
+	text-align:center;
+	margin-top:20px;
+}
+.single_service i{
+	font-size:60px;
+	color:#F05F40;
+}
+.single_service h3{}
+.single_service p{
+	font-size:16px;
+	color:#777;
+}
+/*======end of service area=====*/
+
+/*===start of gallery area===*/
+
+.gallary_area{}
+.img_gallary{}
+.single_picture{
+	padding-right:0;
+	padding-left:0;
+	position: relative;
+	cursor: pointer;
+}
+.single_picture:after{
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+.single_picture:hover:after{
+	content:"";
+	width:100%;
+	height:100%;
+	background:rgba(240,95,64,0.7);
+	position: absolute;
+	top:0;
+	left:10px;
+}
+.caption{
+	position: absolute;
+	right:0;
+	left:0;
+	top:40%;
+	color:#fff;
+	text-align: center;
+	opacity:0;
+	-webkit-transition: opacity .7s;
+	-moz-transition: opacity .7s;
+	-ms-transition: opacity .7s;
+	-o-transition: opacity .7s;
+	transition: opacity .7s;
+}
+
+.single_picture:hover .caption{
+	opacity:1;
+	z-index:9999;
+}
+.caption h3,.caption h4{
+	line-height:5px;
+}
+.caption h4{
+	text-transform: uppercase;
+}
+/*========start of footer=========*/
+
+.footer{}
+.footer_top{}
+.download{
+	background:#222222;
+	text-align:center;
+	padding:35px 0;
+}
+.download h2{
+	text-transform:capitalize;
+	padding-bottom:20px;
+	color:#fff;
+}
+.download button{
+	text-transform:uppercase;
+	padding:15px 25px;
+	border-radius:50px;
+	color:#222222;
+	font-weight:600;
+}
+.footer_bottom{
+	padding:80px 0;
+}
+.contact_us{
+	text-align:center;
+	
+}
+.contact_us h3{
+	color:#222222;
+}
+.contact_us hr{
+	border-color: #F05F40;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+.contact_us p{
+	font-size:16px;
+}
+.contact_icons{
+	text-align:center;
+}
+.contact_icons i{
+	font-size:40px;
+	color:#222222;
+	
+}
+.left_icon {
+	margin-top:10px;
+	font-size:16px;
+}
+.right_icon {}
+.right_icon p{
+	margin-top:10px;
+	font-size:16px;
+}
+.right_icon p a{color:#F05F40;}
+
+
+
+
+
+.down {
+	margin-top: 5px;
+}
+
+
+
